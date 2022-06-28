@@ -1,0 +1,41 @@
+.one{
+    
+    color: brown;
+}
+.two {
+    font-style: italic;
+}
+
+.three {
+    color: red;
+}
+
+.four {
+
+    color: brown;
+}
+
+ul {
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    color: brown;
+      
+}
+
+.five {
+    color: brown;
+    background-color: yellow;
+    
+}
+
+ul {
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 4px;
+}
+.six{
+    background-color: yellow;
+    color: red;
+}
+
