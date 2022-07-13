@@ -1,0 +1,168 @@
+
+   
+  
+  .MAIN {
+    width: auto;
+    height: 100vh;
+    background-image: url("./sky.jpg");
+    background-size: cover;
+    background-position: center;
+   position: relative;
+   
+  }
+  
+  .HID {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .h {
+    font-size: 40px;
+    background-color: orange;
+  }
+  
+  .i {
+    font-size: 40px;
+    background-color: white;
+  }
+  
+  .d{
+    font-size: 40px;
+    background-color: green;
+  }
+  
+  .road {
+    width: 10000px;
+    height: 300px;
+    background-image: url("./road.jpg");
+    background-repeat: no-repeats;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  animation: roadways 5s linear infinite;
+  }
+  
+  @keyframes roadways {
+    100% {
+      transform: translateX(-1400px);
+    }
+  }
+  
+  .city {
+    width: 500vw;
+    height: 18rem;
+    background-image: url("./city.png");
+    position: absolute;
+    left: 0;
+    bottom: 15rem;
+    right: 0;
+    display: block;
+    z-index: 1;
+    background-repeat: repeat-x;
+    animation: ct 20s linear infinite;
+  }
+  
+  @keyframes ct {
+    100% {
+      transform: translateX(-1400px);
+    }
+  }
+  
+  .car {
+    width: 20rem;
+    left: 50%;
+    bottom: 9rem;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 2;
+  }
+  
+  .car img {
+    width: 100%;
+    animation: car 1s linear infinite;
+  }
+  
+  @keyframes car {
+    100% {
+      transform: translateY(-1px);
+    }
+    50% {
+      transform: translateY(1px);
+    }
+    0% {
+      transform: translateY(-1px);
+    }
+  }
+  
+  .wheel {
+    left: 50%;
+    bottom: 13rem;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index: 2;
+  }
+  
+  .wheel img {
+    width: 3.5rem;
+    height: 3.5rem;
+    animation: wheel 1s linear infinite;
+  }
+  
+  .wheel1 {
+    left: -8.2rem;
+    position: absolute;
+  }
+  
+  .wheel2 {
+    left: 4.1rem;
+    position: absolute;
+  }
+  
+  @keyframes wheel {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .flag {
+    position: absolute;
+    left: 56%;
+    bottom: 230px;
+    z-index: 2;
+  }
+  
+  .flag img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .sun {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+  }
+  
+  .sun img {
+    width: 80px;
+    height: 80px;
+    animation: sun 2s linear infinite;
+  }
+  
+  .sun {
+    width: 8px;
+    height: 4px;
+    position: absolute;
+    top: 10;
+    display: block;
+    z-index: 0;
+    background-repeat: repeat-x;
+    animation: city 100s linear infinite;
+  }
+  
+  @keyframes sun {
+    100% {
+      transform: translateX(5px);
+    }
+  }
+
